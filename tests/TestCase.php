@@ -12,4 +12,9 @@ class TestCase extends \Orchestra\Testbench\TestCase
             DatabaseUuidServiceProvider::class
         ];
     }
+    
+    public function testEvents()
+    {
+        $this->assertTrue(true);
+    }
 }
