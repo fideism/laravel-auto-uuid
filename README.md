@@ -7,5 +7,5 @@ Database Table PRIMARY Is UUID && Run Create Not Set This Attributes, This Packa
 
 ## Install
 ```shell
-composer require fideism/laravel-auto-log:^1.0
+composer require fideism/laravel-auto-uuid:^1.0
 ```
