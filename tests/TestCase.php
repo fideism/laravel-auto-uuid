@@ -1,6 +1,6 @@
 <?php
 
-namespace Fideism\DatabaseLog\Tests;
+namespace Fideism\DatabaseUuid\Tests;
 
 use Fideism\DatabaseUuid\DatabaseUuidServiceProvider;
 
