@@ -1,0 +1,39 @@
+{
+    "name": "fideism/laravel-auto-uuid",
+    "description": "Laravel Database Auto Make UUID",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "fideism",
+            "email": "nignog@126.com"
+        }
+    ],
+
+    "require": {
+        "illuminate/database": "^5.0",
+        "illuminate/support": "^5.0",
+        "ramsey/uuid": "^3.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~7.0",
+        "orchestra/testbench": "~3.6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Fideism\\DatabaseUuid\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Fideism\\DatabaseUuid\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Fideism\\DatabaseUuid\\DatabaseUuidServiceProvider"
+            ]
+        }
+    }
+}

@@ -1,0 +1,11 @@
+language: php
+sudo: false
+dist: trusty
+os:
+  - linux
+php:
+  - 7.1.3
+install:
+  - travis_retry composer install --no-suggest --prefer-dist -n -o
+  
+script: vendor/bin/phpunit
