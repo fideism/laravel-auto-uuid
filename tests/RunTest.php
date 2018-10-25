@@ -3,7 +3,7 @@
 namespace Fideism\DatabaseUuid\Tests;
 
 
-class LogTest extends TestCase
+class RunTest extends TestCase
 {
     protected function setUp()
     {
